@@ -1,0 +1,33 @@
+.form h1 {
+  margin: 0;
+}
+.form {
+  height: 70vh;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.loginButton {
+  border: 1px solid rgb(55, 112, 150);
+  background-color: rgb(55, 112, 150);
+  border-radius: 30px;
+  width: 30%;
+  /* height: 30%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  margin-bottom: 10%;
+  cursor: pointer;
+}
+
+.loginButton:hover {
+  color: rgb(240,70,35);
+}
+
+.logindescription {
+  color: gray;
+  text-align: center;
+
+}
+

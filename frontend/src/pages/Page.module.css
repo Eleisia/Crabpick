@@ -1,0 +1,61 @@
+.page {
+  margin-left: 10%;
+  margin-right: 10%;
+  /* height: 100vh; */
+}
+
+.pageButton {
+  display: flex;
+  padding: 2rem;
+  justify-content: center;
+}
+
+.pageButton button{
+  cursor: pointer;
+  margin: 0.5rem;
+}
+
+.pagenation {
+  display: flex;
+  padding: 1rem;
+}
+
+.pageNumber {
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.pageActive {
+  
+  color: red;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.pageNumber p {
+  padding: 0.5rem;
+}
+
+.SearchInput {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.SearchPage {
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 100%;
+  list-style: none;
+  border-top: 1px solid #e0e0e0;
+}
+
+.NoResult {
+  height: 80vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+  

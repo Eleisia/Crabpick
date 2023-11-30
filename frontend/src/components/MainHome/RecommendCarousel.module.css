@@ -1,0 +1,38 @@
+.carousel {
+  display: flex !important;
+  justify-content: space-around;
+  height: 30vh;
+}
+
+.carousel:hover {
+  cursor: pointer;
+}
+
+/* .carousel img {
+  margin-right: 5%;
+} */
+
+
+.centerimg {
+  display: flex !important;
+  justify-content: center;
+}
+
+.centerimg:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
+
+/* .image {
+  margin-right: 10px;
+} */
+
+.slick-prev::before {
+  display: none;
+  opacity: 0;
+}
+
+.slick-next::before {
+  display: none;
+  opacity: 0;
+}

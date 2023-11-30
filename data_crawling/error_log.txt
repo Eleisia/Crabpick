@@ -1,0 +1,28 @@
+API fail
+201 103
+error
+358 178
+HTTPSConnectionPool(host='store.steampowered.com', port=443): Max retries exceeded with url: /api/appdetails?appids=1395660 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000020F89D53890>: Failed to establish a new connection: [Errno 11002] getaddrinfo failed'))
+2764 1466
+Manualy shutdown
+9789 5406
+JSON Decode Error ['1444140', 'Tower!3d Pro - KEWR airport'] /nJSON Decode Error ['1061400', 'YYDS成神之路'] /nHTTPSConnectionPool(host='store.steampowered.com', port=443): Max retries exceeded with url: /api/appdetails?appids=1845950 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000169967F9610>: Failed to establish a new connection: [WinError 10060] 연결된 구성원으로부터 응답이 없어 연결하지 못했거나, 호스트로부터 응답이 없어 연결이 끊어졌습니다'))
+49869 27882
+Manualy shutdown
+59683 33210
+HTTPSConnectionPool(host='store.steampowered.com', port=443): Max retries exceeded with url: /api/appdetails?appids=2300330 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x00000244412893D0>: Failed to establish a new connection: [WinError 10060] 연결된 구성원으로부터 응답이 없어 연결하지 못했거나, 호스트로부터 응답이 없어 연결이 끊어졌습니다'))
+60723 33467
+JSON Decode Error ['2124470', '活字引擎'] /nHTTPSConnectionPool(host='store.steampowered.com', port=443): Max retries exceeded with url: /api/appdetails?appids=1574510 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000027716FDA070>: Failed to establish a new connection: [WinError 10060] 연결된 구성원으로부터 응답이 없어 연결하지 못했거나, 호스트로부터 응답이 없어 연결이 끊어졌습니다'))
+82939 46671
+HTTPSConnectionPool(host='store.steampowered.com', port=443): Max retries exceeded with url: /api/appdetails?appids=1612160 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001AC0615A8B0>: Failed to establish a new connection: [WinError 10060] 연결된 구성원으로부터 응답이 없어 연결하지 못했거나, 호스트로부터 응답이 없어 연결이 끊어졌습니다'))
+86694 49097
+error check
+86996 49263
+JSON Decode Error ['1863540', '月出之时'] /nHTTPSConnectionPool(host='store.steampowered.com', port=443): Max retries exceeded with url: /api/appdetails?appids=699920 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000014A4DA9A610>: Failed to establish a new connection: [WinError 10060] 연결된 구성원으로부터 응답이 없어 연결하지 못했거나, 호스트로부터 응답이 없어 연결이 끊어졌습니다'))
+125320 67033
+Manualy shutdown
+137598 73240
+HTTPSConnectionPool(host='store.steampowered.com', port=443): Max retries exceeded with url: /api/appdetails?appids=416410 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000002730C130A60>: Failed to establish a new connection: [WinError 10060] 연결된 구성원으로부터 응답이 없어 연결하지 못했거나, 호스트로부터 응답이 없어 연결이 끊어졌습니다'))
+138199 73493
+JSON Decode Error ['2285600', 'The Third'] /nManualy shutdown
+156628 83300

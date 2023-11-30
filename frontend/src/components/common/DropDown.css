@@ -1,0 +1,32 @@
+/* .menu {
+    background-color: red;
+    z-index: 50;
+} */
+
+.a {
+  display: relative;
+  top: 100px;
+  left: 10;
+  width: 100%;
+  background: red;
+  z-index: 20;
+}
+
+.gameSearch {
+  display: flex;
+  padding: 5px;
+  justify-items: center;
+  align-items: center;
+  z-index: 20;
+}
+
+.gameSearch:hover {
+  background: skyblue;
+  cursor: pointer;
+}
+
+.gameName {
+  justify-items: center;
+  align-items: center;
+  margin-left: 10px;
+}

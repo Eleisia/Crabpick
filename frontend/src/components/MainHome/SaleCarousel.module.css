@@ -1,0 +1,69 @@
+.discount_block {
+  position: relative;
+  display: flex;
+  white-space: none;
+  text-align: right;
+}
+
+.discount_pct {
+  font-weight: bold;
+  color: #000000;
+  background: #A1CD44;
+  padding: 6px;
+  font-size: 16px;
+}
+
+.discount_prices {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-shrink: 1;
+  overflow: hidden;
+  justify-content: end;
+  margin-left: 10px;
+}
+
+.discount_original_price {
+  position: relative;
+  width: fit-content;
+  line-height: 12px;
+  color: #848e94;
+  text-decoration: none; /* remove the default line-through */
+}
+.cancelled_price {
+  position: relative;
+  width: fit-content;
+  line-height: 12px;
+  color: #848e94;
+  text-decoration: none; /* remove the default line-through */
+}
+
+.cancelled_price::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  transform: translateY(-50%);
+  border-top: 1px solid #848e94;
+  border-image: linear-gradient(to right, transparent, #848e94, transparent) 1;
+}
+
+
+.discount_final_price {
+  /* font-size: 14px; */
+  color: #ffffff;
+  padding-left: 4px;
+  line-height: 12px;
+}
+
+.spantag{
+  color: white;
+  cursor: pointer;
+
+}
+
+.spantag:hover {
+  color: rgb(240,70,35)
+}

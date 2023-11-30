@@ -1,0 +1,169 @@
+.detail {
+  color: white;
+}
+
+.average {
+  align-items: center;
+  margin-left: 2em;
+}
+
+.bigImage {
+  border: solid black;
+  width: 100%;
+}
+
+/* .detailInfo {
+  margin-left: 2%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+} */
+.detailInfo {
+  margin-left: 2%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center; /* 추가된 코드 */
+  gap: 10px;
+}
+
+.detailInfo p {
+  text-align: center; /* 추가된 코드 */
+}
+
+.evaluate {
+  display: flex;
+}
+
+.gameDetail {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: solid black;
+  color: white;
+}
+
+.gameImage {
+  display: flex;
+  flex-direction: column;
+  border: solid black;
+  width: 100%;
+}
+
+.goodRatio {
+  display: absolute;
+  z-index: 5;
+  color: black;
+  background-color: blue;
+}
+
+.smallImageBox {
+  position: relative;
+  width: 100%;
+  height: 7rem;
+  overflow-x: scroll;
+}
+
+.smallImages {
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+  position: absolute;
+  height: 90%;
+  width: 100%;
+  grid-auto-columns: 9.5rem;
+  grid-auto-flow: column;
+  /* overflow: hidden; */
+}
+
+.smallImage {
+  width: 100%;
+  height: fit-content;
+  border: solid black;
+}
+
+.smallImage:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
+
+.simmilarGamesBox {
+  position: relative;
+  width: 100%;
+  height: 11rem;
+  overflow-x: scroll;
+}
+
+.simmilarGames {
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  grid-auto-columns: 20rem;
+  grid-auto-flow: column;
+}
+
+.simmilarGame {
+  width: 100%;
+  height: fit-content;
+  border: solid black;
+}
+.simmilarGame:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+}
+.rateBar {
+  height: 2em;
+  width: 50%;
+  border-radius: 0%;
+}
+
+.rateBar ::after {
+  content: attr(value);
+  top: -17px;
+  left: 40px;
+  position: relative;
+}
+
+.rateBar::-webkit-meter-bar {
+  background-color: red;
+  border-radius: 0%;
+}
+
+.rateBar::-webkit-meter-even-less-good-value {
+  background-color: green;
+}
+.rateBar::-webkit-meter-suboptimum-value {
+  background-color: green;
+}
+.rateBar::-webkit-meter-optimum-value {
+  background-color: green;
+}
+
+.ratio {
+  display: flex;
+}
+
+.steamlogo {
+  width: 2em;
+}
+
+.steamlogo:hover {
+  cursor: pointer;
+}
+
+.notlogincomment {
+  position: absolute;
+  left: 45%;
+  top: 50%;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.notlogincomment:hover {
+  transform: scale(1.02);
+  color: rgb(240, 70, 35);
+}

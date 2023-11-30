@@ -1,0 +1,73 @@
+.Gamenews {
+  /* height: 100vh; */
+}
+
+
+.newsul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid #e0e0e0;
+}
+
+.newsli {
+  border-bottom: 1px solid #e0e0e0;
+  /* margin: 10px 0; */
+  padding: 10px 0;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.newsli:hover {
+  transform: scale(1.02);
+}
+
+
+.newsa {
+  color: white;
+  text-decoration: none;
+
+}
+
+.article {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* img {
+  width: 20vh;
+  height: auto;
+  margin-right: 5%;
+} */
+
+.article_left {
+  width: 70%;
+  display: flex;
+  align-items: center;
+}
+
+.article_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;}
+
+.morebutton {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 20px auto
+}
+
+.morebutton button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.morebutton button:hover {
+  background-color: #388e3c;
+}
